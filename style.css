@@ -1,0 +1,249 @@
+/* Shared Properties */
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .orange {
+    color: #fd6e0a;
+  }
+  
+  .btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 18px 35px 19px 36px;
+  }
+  
+  .section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+    padding-top: 50px;
+  }
+  
+  .menu > ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu > ul > li {
+    margin-right: 50px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .menu > ul > li > a {
+    text-decoration: none;
+    color: #181818;
+  }
+  
+  .header {
+    background: #fff8f3;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  
+  .banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-content {
+    max-width: 500px;
+  }
+  
+  .profile-pic {
+    width: 500px;
+  }
+  
+  .banner-greetings {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  
+  .banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+  }
+  
+  .banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .about {
+    padding: 130px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin-top: 130px;
+  }
+  
+  .about-title {
+    margin-bottom: 25px;
+  }
+  
+  .about-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-info div {
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  .what-i-do {
+    margin-top: 50px;
+  }
+  
+  .skill-container {
+    display: flex;
+  }
+  
+  .skill {
+    padding: 30px;
+    gap: 24px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
+  
+  .skill-title {
+    margin-top: 20px;
+  }
+  
+  .skill-desc {
+    margin-top: 9px;
+    color: #757575;
+  }
+  
+  .resume-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .resume-column {
+    margin-top: 50px;
+  }
+  
+  .resume-column-title {
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .resume-column h2 {
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .education,
+  .exp h3 {
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .education,
+  .exp p {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .download-cv {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 117px;
+  }
+  
+  footer {
+    margin-top: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  
+  .footer-column {
+    width: 50%;
+  }
+  
+  .pain {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .contact input,
+  textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 100%;
+  }
+  
+  .social-link a {
+    margin-right: 10px;
+  }
+  
